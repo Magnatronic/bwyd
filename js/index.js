@@ -35,7 +35,7 @@ app.append(
       h('div', { class: 'pics' }, foodImg(FOOD_BY_ID['sandwiches']), foodImg(FOOD_BY_ID['fruit'])),
       h('h2', {}, 'Geiriau'),
       h('div', { class: 'en' }, 'Words'),
-      h('p', {}, 'See every word, choose which foods the games use, choose the pictures, and record your voice')),
+      h('p', {}, 'See every word, choose which foods the games use, and record your voice')),
     h('a', { class: 'tile', href: 'sheet.html' },
       h('div', { class: 'pics' }, '🖨️'),
       h('h2', {}, 'Taflen'),
