@@ -29,7 +29,7 @@ function tile(g) {
 app.append(
   h('p', { class: 'intro' }, 'Dewis gêm · Choose a game'),
   h('div', { class: 'menu' }, GAMES.map(tile)),
-  h('h2', { class: 'section-title' }, 'I’r oedolyn · For the grown-up'),
+  h('h2', { class: 'section-title' }, 'Mwy · More'),
   h('div', { class: 'menu' },
     h('a', { class: 'tile', href: 'words.html' },
       h('div', { class: 'pics' }, foodImg(FOOD_BY_ID['sandwiches']), foodImg(FOOD_BY_ID['fruit'])),
